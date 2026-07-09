@@ -11,8 +11,8 @@ interface SellWasteProps {
 export default function SellWaste({ user, setPage, onRequestSubmitted }: SellWasteProps) {
   const [wasteType, setWasteType] = useState<'Plastic' | 'Paper' | 'Cardboard' | 'Glass' | 'Metal' | 'E-Waste' | 'Mixed'>("Plastic");
   const [quantity, setQuantity] = useState(15);
-  const [pickupAddress, setPickupAddress] = useState("Address")
-  const [contactNumber, setContactNumber] = useState(user.phone || "(+91)__________")
+  const [pickupAddress, setPickupAddress] = useState("");
+  const [contactNumber, setContactNumber] = useState(user.phone || "");
   const [preferredDate, setPreferredDate] = useState(() => {
     const tomorrow = new Date();
     tomorrow.setDate(tomorrow.getDate() + 1);
