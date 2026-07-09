@@ -134,7 +134,7 @@ export default function SellWaste({ user, setPage, onRequestSubmitted }: SellWas
                     required
                     value={pickupAddress}
                     onChange={(e) => setPickupAddress(e.target.value)}
-                    placeholder="MG Road, Bengaluru, Karnataka"
+                    placeholder=" Visakhapatnam, Andhra Pradesh"
                     className="w-full pl-11 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#064E3B] text-slate-800"
                   />
                 </div>
