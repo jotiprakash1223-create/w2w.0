@@ -1,0 +1,6 @@
+{
+  "name": "Waste2Wealth Exchange",
+  "description": "An interactive Waste2Wealth exchange platform connecting waste sellers and verified recyclers with smart scheduling, analytics, reward points systems, and a generated Python Flask backend.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
